@@ -1,14 +1,16 @@
 <?php
     class Prodotti{
-        public $cibo;
-        public $cucce;
-        public $giochi;
+        public $immagine;
+        public $nome;
+        public $tipo;
+        public $prezzo;
 
-        public function __construct($cibo, $cucce, $giochi)
+        public function __construct($immagine, $nome, $tipo, $prezzo)
         {
-            $this->cibo = $cibo;
-            $this->cucce = $cucce;
-            $this->giochi = $giochi;
+            $this->immagine = $immagine;
+            $this->nome = $nome;
+            $this->tipo = $tipo;
+            $this->prezzo = $prezzo;
         }
     }
 ?>
