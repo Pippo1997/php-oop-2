@@ -20,5 +20,7 @@
     $giochi_1 = new Giochi('immagine', 'Kong Classic', 'Cane', '$13,49', '8,5cm x 10cm', 'Galleggia e Rimbalza');
     $giochi_2 = new Giochi('immagine', 'Topini di Peluche Trixie', 'Gatto', '$4,99', '8,5cm x 10cm', 'Morbido con codina in corda');
 
+    var_dump($cibo_1);
+
     echo "</pre>";
 ?>
